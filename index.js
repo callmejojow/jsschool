@@ -12,10 +12,10 @@ console.log("11"+"11");
 console.log("11+11");
 console.log(11+11);
 
-console.log("stan"==="jolie");
+console.log("George"==="jolie");
 console.log("11"===11);
-console.log("stan"!=="Stan");
-console.log("stan"!=="stan");
+console.log("George"!=="George");
+console.log("George"!=="George");
 
 var myName = "Jolie" // camelcase spelling for variables
 var myAge = "99"
@@ -38,6 +38,39 @@ function kissJojo() {
   console.log("Mwah!")
 }
 
-console.log("Stan")
+console.log("George")
 kissJojo()
 
+function whenToGoOut(date) {
+  console.log("I'm going to ask her out " + date)
+}
+whenToGoOut("today.")
+
+function subtractTwoNumbers(num1, num2) {
+  console.log(num1 - num2)
+}
+subtractTwoNumbers(99, 10)
+
+
+function whatIsHisName(name) {
+  if(name === "Stan") {
+  console.log("Tah-dah, you got his name!");
+  } else {
+  console.log("Boo, that's not his name!");
+  }
+}
+whatIsHisName("Tony")
+
+
+function weatherToday(weather) {
+  if(weather === "sunny") {
+  console.log("Enjoy the sun!");
+  } else if(weather === "rainy") {
+  console.log("Better stay at home.");
+  } 
+  else {
+  console.log("Check the weather!");
+  }
+}
+
+weatherToday("windy")
